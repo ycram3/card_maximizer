@@ -15,8 +15,10 @@ For example, if our location understands that we are inside a restaurant it will
 In this way we will always maximize how much money we are getting back.
 
 Proposal:
+
 Must have features: 
   - Getting the location
   - Suggesting the card
+
 Nice to have feature:
   - Be able to make a payment with that card
