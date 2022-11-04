@@ -1,7 +1,10 @@
 # card_maximizer
 Final Project CSC 660/680
+
 Name: Marcello Rusciano
+
 SFSU ID: 917213120
+
 Semester: Fall 2022
 
 Summury:
