@@ -17,8 +17,12 @@ In this way we will always maximize how much money we are getting back.
 Proposal:
 
 Must have features: 
-  - Getting the location
-  - Suggesting the card
+  - Getting the location (estimated to be 30 hours of work)
+  - Suggesting the card (estimated to be 20 hours of work)
 
 Nice to have feature:
+
+  - Have the log-in page
+  - Have sign-up page
+  - Inserting card from UI
   - Be able to make a payment with that card
