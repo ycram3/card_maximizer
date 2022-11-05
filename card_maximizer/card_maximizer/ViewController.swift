@@ -2,13 +2,19 @@
 //  ViewController.swift
 //  card_maximizer
 //
-//  Created by JPL-ST-SPRING2022 on 11/4/22.
+//  Created by Marcello Rusciano on 11/4/22.
 //
 
 import UIKit
+import GooglePlaces
+
 
 class ViewController: UIViewController {
     
+    var placesClient: GMSPlacesClient!
+    
+    //var placesClient = GMSPlacesClient.shared()
+
     lazy var responseFromGoogle: String = "bakery"
     
     var dict = ["amusement_park":"entertainment",
