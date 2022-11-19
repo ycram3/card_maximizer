@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		374265F6EC6E000BEE82A1F5ACBA578C /* Pods-card_maximizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C49B7C819DEB380457A04FA51776BD /* Pods-card_maximizer-dummy.m */; };
+		544872C232CC8086FBA202E6935C2EAB /* Pods-card_maximizer-card_maximizerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7046FD08AFDC347B0FD286B431A073C2 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5524B6A7F82E45A288B46B768BCBCDF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5BA413CA54B799990461B143C4E19B76 /* Pods-card_maximizerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464A9496BF55D05E35FD7E5DECFA71B /* Pods-card_maximizerTests-dummy.m */; };
+		75524DA73529FD266A60561BED00E36A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB19AE062939B29EA4B9A9B573D651C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CE658FAEE22936FBC690003ADD35B6D9 /* Pods-card_maximizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB813B0A59F5375CE62F86213C9497 /* Pods-card_maximizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FFF55012D6E6C3FB0A1E4BB9E585A4 /* Pods-card_maximizer-card_maximizerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E90F6085613380702DFC3E305D0976 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */; };
+		F884863B24DB52BA7D5BFB7460316351 /* Pods-card_maximizerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29996A9ED5043A82B33BFB0D5EA1F02 /* Pods-card_maximizerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA88A1E6C79EC0053C6D464DA70D91A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B78E017823BBF009486F5C39459BFE;
+			remoteInfo = "Pods-card_maximizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A6346A6509CA95373061FD98C385901 /* Pods-card_maximizerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-card_maximizerTests"; path = Pods_card_maximizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6FBFAFC17F11359E78053A2405E900 /* Pods-card_maximizer-card_maximizerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-card_maximizer-card_maximizerUITests"; path = Pods_card_maximizer_card_maximizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20660921F48CFBAD4D300A2C90D887DD /* Pods-card_maximizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CB233ADAC1DC814204FC8FC88BF0880 /* Pods-card_maximizerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizerTests.modulemap"; sourceTree = "<group>"; };
+		4266A8DC986DC635317C9B5C44B8C472 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51C49B7C819DEB380457A04FA51776BD /* Pods-card_maximizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizer-dummy.m"; sourceTree = "<group>"; };
+		6358D2AFEF7BE652E1B98F111F64F338 /* Pods-card_maximizerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6ABE323C126A20DDEF48D7966F1EB12D /* Pods-card_maximizer-card_maximizerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-card_maximizerUITests-Info.plist"; sourceTree = "<group>"; };
+		7046FD08AFDC347B0FD286B431A073C2 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizer-card_maximizerUITests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		742EE253687E977EA575D9371CE0D3E3 /* Pods-card_maximizer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E8712A8C0FECD3DE5C5CE2313CCCED5 /* Pods-card_maximizerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizerTests-Info.plist"; sourceTree = "<group>"; };
+		8093D0E194DF90879059B40DCC6244B0 /* Pods-card_maximizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer.release.xcconfig"; sourceTree = "<group>"; };
+		8464A9496BF55D05E35FD7E5DECFA71B /* Pods-card_maximizerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizerTests-dummy.m"; sourceTree = "<group>"; };
+		90A27800B4666F4EF0DFC068D5640D26 /* Pods-card_maximizerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98D5C427C04B663C9099D0F713C4959B /* Pods-card_maximizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizer.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8E90F6085613380702DFC3E305D0976 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizer-card_maximizerUITests-dummy.m"; sourceTree = "<group>"; };
+		A900B49FFCE414BEDB1CC86900BA3725 /* Pods-card_maximizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE1767272675CB461DB1B662D6F4B29 /* Pods-card_maximizer-card_maximizerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizer-card_maximizerUITests.modulemap"; sourceTree = "<group>"; };
+		B04DBE00F0DF1BF190BA072460513AA4 /* Pods-card_maximizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer.debug.xcconfig"; sourceTree = "<group>"; };
+		BDCF0655A92758AE4DF71C3CACBC83A3 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C29996A9ED5043A82B33BFB0D5EA1F02 /* Pods-card_maximizerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizerTests-umbrella.h"; sourceTree = "<group>"; };
+		CD09BC3103BC51C877590ECFBF0BBD41 /* Pods-card_maximizer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-Info.plist"; sourceTree = "<group>"; };
+		D1C9FF04846EEC4848BED423A5F934BD /* Pods-card_maximizer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-card_maximizer"; path = Pods_card_maximizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5645B454DAB114EFA65604815918922 /* Pods-card_maximizer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D820E8F2F4198A306EDED84FC0BCA192 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer-card_maximizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE987030F29873ECC888208CB052E83 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFFB813B0A59F5375CE62F86213C9497 /* Pods-card_maximizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizer-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C07D7BFE1FFCDFFF2DBCD620D9EA311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB19AE062939B29EA4B9A9B573D651C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AB6CD0D5F0F2155C00DB5A778A1FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75524DA73529FD266A60561BED00E36A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1F0DBFDCD63EF06F701573714C3E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5524B6A7F82E45A288B46B768BCBCDF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E9C74E62A7953F66C680991F58F672 /* Pods-card_maximizer-card_maximizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE1767272675CB461DB1B662D6F4B29 /* Pods-card_maximizer-card_maximizerUITests.modulemap */,
+				DCE987030F29873ECC888208CB052E83 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown */,
+				BDCF0655A92758AE4DF71C3CACBC83A3 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist */,
+				A8E90F6085613380702DFC3E305D0976 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */,
+				6ABE323C126A20DDEF48D7966F1EB12D /* Pods-card_maximizer-card_maximizerUITests-Info.plist */,
+				7046FD08AFDC347B0FD286B431A073C2 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */,
+				4266A8DC986DC635317C9B5C44B8C472 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */,
+				D820E8F2F4198A306EDED84FC0BCA192 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */,
+			);
+			name = "Pods-card_maximizer-card_maximizerUITests";
+			path = "Target Support Files/Pods-card_maximizer-card_maximizerUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		80076023A5AF4A89856422DE39931EAD /* Pods-card_maximizer */ = {
+			isa = PBXGroup;
+			children = (
+				98D5C427C04B663C9099D0F713C4959B /* Pods-card_maximizer.modulemap */,
+				D5645B454DAB114EFA65604815918922 /* Pods-card_maximizer-acknowledgements.markdown */,
+				742EE253687E977EA575D9371CE0D3E3 /* Pods-card_maximizer-acknowledgements.plist */,
+				51C49B7C819DEB380457A04FA51776BD /* Pods-card_maximizer-dummy.m */,
+				CD09BC3103BC51C877590ECFBF0BBD41 /* Pods-card_maximizer-Info.plist */,
+				FFFB813B0A59F5375CE62F86213C9497 /* Pods-card_maximizer-umbrella.h */,
+				B04DBE00F0DF1BF190BA072460513AA4 /* Pods-card_maximizer.debug.xcconfig */,
+				8093D0E194DF90879059B40DCC6244B0 /* Pods-card_maximizer.release.xcconfig */,
+			);
+			name = "Pods-card_maximizer";
+			path = "Target Support Files/Pods-card_maximizer";
+			sourceTree = "<group>";
+		};
+		854B112013CAFEF308BB20C29DA9AD0C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80076023A5AF4A89856422DE39931EAD /* Pods-card_maximizer */,
+				14E9C74E62A7953F66C680991F58F672 /* Pods-card_maximizer-card_maximizerUITests */,
+				CF0297DBA4F560FC25D5CF3DD19012BC /* Pods-card_maximizerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF0297DBA4F560FC25D5CF3DD19012BC /* Pods-card_maximizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB233ADAC1DC814204FC8FC88BF0880 /* Pods-card_maximizerTests.modulemap */,
+				6358D2AFEF7BE652E1B98F111F64F338 /* Pods-card_maximizerTests-acknowledgements.markdown */,
+				90A27800B4666F4EF0DFC068D5640D26 /* Pods-card_maximizerTests-acknowledgements.plist */,
+				8464A9496BF55D05E35FD7E5DECFA71B /* Pods-card_maximizerTests-dummy.m */,
+				7E8712A8C0FECD3DE5C5CE2313CCCED5 /* Pods-card_maximizerTests-Info.plist */,
+				C29996A9ED5043A82B33BFB0D5EA1F02 /* Pods-card_maximizerTests-umbrella.h */,
+				20660921F48CFBAD4D300A2C90D887DD /* Pods-card_maximizerTests.debug.xcconfig */,
+				A900B49FFCE414BEDB1CC86900BA3725 /* Pods-card_maximizerTests.release.xcconfig */,
+			);
+			name = "Pods-card_maximizerTests";
+			path = "Target Support Files/Pods-card_maximizerTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D6672404430A34B5C6051D8AD4E4BF02 /* Products */,
+				854B112013CAFEF308BB20C29DA9AD0C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6672404430A34B5C6051D8AD4E4BF02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C9FF04846EEC4848BED423A5F934BD /* Pods-card_maximizer */,
+				1F6FBFAFC17F11359E78053A2405E900 /* Pods-card_maximizer-card_maximizerUITests */,
+				1A6346A6509CA95373061FD98C385901 /* Pods-card_maximizerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B066470A9472DD00EC0381F36D26EF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F884863B24DB52BA7D5BFB7460316351 /* Pods-card_maximizerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C64F298A20B9205891B447F4D88FC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE658FAEE22936FBC690003ADD35B6D9 /* Pods-card_maximizer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB58417499D4B33CEB3A8C558E97015 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544872C232CC8086FBA202E6935C2EAB /* Pods-card_maximizer-card_maximizerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44249511BBBA0E686BC48C233DB80712 /* Pods-card_maximizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FA20BBF0E3319861905587BC30A533 /* Build configuration list for PBXNativeTarget "Pods-card_maximizerTests" */;
+			buildPhases = (
+				2B066470A9472DD00EC0381F36D26EF3 /* Headers */,
+				D764A18125587853F8A983B2DBE8B5BD /* Sources */,
+				BF1F0DBFDCD63EF06F701573714C3E48 /* Frameworks */,
+				C2B434111C5997B4F7820F1C8A697644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DAE747A523FF274B2D76BA1FD879AB /* PBXTargetDependency */,
+			);
+			name = "Pods-card_maximizerTests";
+			productName = Pods_card_maximizerTests;
+			productReference = 1A6346A6509CA95373061FD98C385901 /* Pods-card_maximizerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		80FE5D7DFEBCC48715C1B9BB0C6677F7 /* Pods-card_maximizer-card_maximizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3015CEE042AAD94CEFD6AB6AA9240595 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer-card_maximizerUITests" */;
+			buildPhases = (
+				9DB58417499D4B33CEB3A8C558E97015 /* Headers */,
+				12A92BACB26CC2ECC11F2D5BAE388D61 /* Sources */,
+				4C07D7BFE1FFCDFFF2DBCD620D9EA311 /* Frameworks */,
+				EF83F97FC6361A4D7E65995CED12DAB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-card_maximizer-card_maximizerUITests";
+			productName = Pods_card_maximizer_card_maximizerUITests;
+			productReference = 1F6FBFAFC17F11359E78053A2405E900 /* Pods-card_maximizer-card_maximizerUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7B78E017823BBF009486F5C39459BFE /* Pods-card_maximizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517E9CA65B31667AC891A09AE652D400 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer" */;
+			buildPhases = (
+				42C64F298A20B9205891B447F4D88FC4 /* Headers */,
+				36B09D9D5BD120A2D09EF939CBCCC73E /* Sources */,
+				78AB6CD0D5F0F2155C00DB5A778A1FFA /* Frameworks */,
+				B99BBD1FF86A87B718EB472682BDDAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-card_maximizer";
+			productName = Pods_card_maximizer;
+			productReference = D1C9FF04846EEC4848BED423A5F934BD /* Pods-card_maximizer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D6672404430A34B5C6051D8AD4E4BF02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B78E017823BBF009486F5C39459BFE /* Pods-card_maximizer */,
+				80FE5D7DFEBCC48715C1B9BB0C6677F7 /* Pods-card_maximizer-card_maximizerUITests */,
+				44249511BBBA0E686BC48C233DB80712 /* Pods-card_maximizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B99BBD1FF86A87B718EB472682BDDAD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B434111C5997B4F7820F1C8A697644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF83F97FC6361A4D7E65995CED12DAB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A92BACB26CC2ECC11F2D5BAE388D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FFF55012D6E6C3FB0A1E4BB9E585A4 /* Pods-card_maximizer-card_maximizerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B09D9D5BD120A2D09EF939CBCCC73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374265F6EC6E000BEE82A1F5ACBA578C /* Pods-card_maximizer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D764A18125587853F8A983B2DBE8B5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA413CA54B799990461B143C4E19B76 /* Pods-card_maximizerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DAE747A523FF274B2D76BA1FD879AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-card_maximizer";
+			target = B7B78E017823BBF009486F5C39459BFE /* Pods-card_maximizer */;
+			targetProxy = DA88A1E6C79EC0053C6D464DA70D91A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2F724C6B285216AB052501DB6F7B2377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8093D0E194DF90879059B40DCC6244B0 /* Pods-card_maximizer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		423EBA0E7210FDC6448EA66A50372BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20660921F48CFBAD4D300A2C90D887DD /* Pods-card_maximizerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C05DAB891A924B679EDF387EE8FB6BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A900B49FFCE414BEDB1CC86900BA3725 /* Pods-card_maximizerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6C7932F45CBC86D8B7A581E52CA0B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D820E8F2F4198A306EDED84FC0BCA192 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5BC54B6296640EBD1E087F35A15DF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04DBE00F0DF1BF190BA072460513AA4 /* Pods-card_maximizer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7A2CB4A2A27033040E25BFE8920CABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4266A8DC986DC635317C9B5C44B8C472 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3015CEE042AAD94CEFD6AB6AA9240595 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer-card_maximizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A2CB4A2A27033040E25BFE8920CABB /* Debug */,
+				C6C7932F45CBC86D8B7A581E52CA0B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517E9CA65B31667AC891A09AE652D400 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BC54B6296640EBD1E087F35A15DF2A /* Debug */,
+				2F724C6B285216AB052501DB6F7B2377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FA20BBF0E3319861905587BC30A533 /* Build configuration list for PBXNativeTarget "Pods-card_maximizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423EBA0E7210FDC6448EA66A50372BAD /* Debug */,
+				C05DAB891A924B679EDF387EE8FB6BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

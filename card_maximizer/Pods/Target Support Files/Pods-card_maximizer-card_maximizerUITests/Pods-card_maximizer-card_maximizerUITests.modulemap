@@ -1,0 +1,6 @@
+framework module Pods_card_maximizer_card_maximizerUITests {
+  umbrella header "Pods-card_maximizer-card_maximizerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

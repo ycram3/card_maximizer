@@ -2,20 +2,19 @@
 //  AppDelegate.swift
 //  card_maximizer
 //
-//  Created by JPL-ST-SPRING2022 on 11/4/22.
+//  Created by Marcello Rusciano on 11/4/22.
 //
 
 import UIKit
-import GooglePlaces
+//import GooglePlaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        GMSPlacesClient.provideAPIKey("AIzaSyBvc_DDOIs7PGotXDm4KhvDZbPe5Z1RSIw")
+
+        print("I arrived in AppDelegate")
+        //GMSPlacesClient.provideAPIKey("AIzaSyBvc_DDOIs7PGotXDm4KhvDZbPe5Z1RSIw")
         // Override point for customization after application launch.
         return true
     }

@@ -1,0 +1,6 @@
+framework module Pods_card_maximizerTests {
+  umbrella header "Pods-card_maximizerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  card_maximizer
 //
-//  Created by JPL-ST-SPRING2022 on 11/4/22.
+//  Created by Marcello Rusciano on 11/4/22.
 //
 
 import UIKit

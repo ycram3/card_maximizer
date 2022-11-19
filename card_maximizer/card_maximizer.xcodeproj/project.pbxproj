@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D889FCCAC97A4202DC2141 /* Pods_card_maximizer_card_maximizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */; };
+		50A51156557B65EE80977A53 /* Pods_card_maximizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242A5E36CF6482124E00EAE4 /* Pods_card_maximizerTests.framework */; };
 		B5F0922D29158850000C0D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0922C29158850000C0D55 /* AppDelegate.swift */; };
 		B5F0922F29158850000C0D55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0922E29158850000C0D55 /* SceneDelegate.swift */; };
 		B5F0923129158850000C0D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0923029158850000C0D55 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		B5F0924429158856000C0D55 /* card_maximizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0924329158856000C0D55 /* card_maximizerTests.swift */; };
 		B5F0924E29158856000C0D55 /* card_maximizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0924D29158856000C0D55 /* card_maximizerUITests.swift */; };
 		B5F0925029158856000C0D55 /* card_maximizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0924F29158856000C0D55 /* card_maximizerUITestsLaunchTests.swift */; };
+		F06FB465533F3D9543DB2E93 /* Pods_card_maximizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D178C696550D47A4527E2528 /* Pods_card_maximizer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AA17385DE7133106388F90 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer-card_maximizerUITests.release.xcconfig"; path = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0673D45D0A430877D7020F0E /* Pods-card_maximizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer.release.xcconfig"; path = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer.release.xcconfig"; sourceTree = "<group>"; };
+		242A5E36CF6482124E00EAE4 /* Pods_card_maximizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_card_maximizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4177C59CEB53577135D53DEE /* Pods-card_maximizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizerTests.release.xcconfig"; path = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BBE11406EBA15BE9CBA3F36 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_card_maximizer_card_maximizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A35D95C8151588F0FACCC9D /* Pods-card_maximizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer.debug.xcconfig"; sourceTree = "<group>"; };
 		B5F0922929158850000C0D55 /* card_maximizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = card_maximizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F0922C29158850000C0D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F0922E29158850000C0D55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		B5F0924929158856000C0D55 /* card_maximizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = card_maximizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F0924D29158856000C0D55 /* card_maximizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_maximizerUITests.swift; sourceTree = "<group>"; };
 		B5F0924F29158856000C0D55 /* card_maximizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_maximizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D178C696550D47A4527E2528 /* Pods_card_maximizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_card_maximizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F412E53BDAE58FF1D6BD4543 /* Pods-card_maximizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizerTests.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06FB465533F3D9543DB2E93 /* Pods_card_maximizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A51156557B65EE80977A53 /* Pods_card_maximizerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D889FCCAC97A4202DC2141 /* Pods_card_maximizer_card_maximizerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94C7CB0DF343CDCC9D147B40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A35D95C8151588F0FACCC9D /* Pods-card_maximizer.debug.xcconfig */,
+				0673D45D0A430877D7020F0E /* Pods-card_maximizer.release.xcconfig */,
+				4BBE11406EBA15BE9CBA3F36 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */,
+				03AA17385DE7133106388F90 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */,
+				F412E53BDAE58FF1D6BD4543 /* Pods-card_maximizerTests.debug.xcconfig */,
+				4177C59CEB53577135D53DEE /* Pods-card_maximizerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B5F0922029158850000C0D55 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				B5F0924229158856000C0D55 /* card_maximizerTests */,
 				B5F0924C29158856000C0D55 /* card_maximizerUITests */,
 				B5F0922A29158850000C0D55 /* Products */,
+				94C7CB0DF343CDCC9D147B40 /* Pods */,
+				D800248D0DECA22CDF9320BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,16 @@
 			path = card_maximizerUITests;
 			sourceTree = "<group>";
 		};
+		D800248D0DECA22CDF9320BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D178C696550D47A4527E2528 /* Pods_card_maximizer.framework */,
+				566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */,
+				242A5E36CF6482124E00EAE4 /* Pods_card_maximizerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5F0925329158856000C0D55 /* Build configuration list for PBXNativeTarget "card_maximizer" */;
 			buildPhases = (
+				D4C33F4E26FD44A36347BD06 /* [CP] Check Pods Manifest.lock */,
 				B5F0922529158850000C0D55 /* Sources */,
 				B5F0922629158850000C0D55 /* Frameworks */,
 				B5F0922729158850000C0D55 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5F0925629158856000C0D55 /* Build configuration list for PBXNativeTarget "card_maximizerTests" */;
 			buildPhases = (
+				98154677BB07C34AE3387F08 /* [CP] Check Pods Manifest.lock */,
 				B5F0923B29158856000C0D55 /* Sources */,
 				B5F0923C29158856000C0D55 /* Frameworks */,
 				B5F0923D29158856000C0D55 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5F0925929158856000C0D55 /* Build configuration list for PBXNativeTarget "card_maximizerUITests" */;
 			buildPhases = (
+				EAA2EF43B86A2B1BB0FBD220 /* [CP] Check Pods Manifest.lock */,
 				B5F0924529158856000C0D55 /* Sources */,
 				B5F0924629158856000C0D55 /* Frameworks */,
 				B5F0924729158856000C0D55 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98154677BB07C34AE3387F08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card_maximizerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C33F4E26FD44A36347BD06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card_maximizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA2EF43B86A2B1BB0FBD220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card_maximizer-card_maximizerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5F0922529158850000C0D55 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		B5F0925429158856000C0D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A35D95C8151588F0FACCC9D /* Pods-card_maximizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +574,7 @@
 		};
 		B5F0925529158856000C0D55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0673D45D0A430877D7020F0E /* Pods-card_maximizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +603,7 @@
 		};
 		B5F0925729158856000C0D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F412E53BDAE58FF1D6BD4543 /* Pods-card_maximizerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +623,7 @@
 		};
 		B5F0925829158856000C0D55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4177C59CEB53577135D53DEE /* Pods-card_maximizerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +643,7 @@
 		};
 		B5F0925A29158856000C0D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBE11406EBA15BE9CBA3F36 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +661,7 @@
 		};
 		B5F0925B29158856000C0D55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AA17385DE7133106388F90 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

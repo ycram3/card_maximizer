@@ -6,12 +6,12 @@
 //
 
 import UIKit
-import GooglePlaces
+//import GooglePlaces
 
 
 class ViewController: UIViewController {
     
-    var placesClient: GMSPlacesClient!
+    //var placesClient: GMSPlacesClient!
     
     //var placesClient = GMSPlacesClient.shared()
 
@@ -68,7 +68,10 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        print("I arrived in viewDidLoad prior")
+
         super.viewDidLoad()
+        print("I arrived in viewDidLoad")
         // Do any additional setup after loading the view.
     }
 

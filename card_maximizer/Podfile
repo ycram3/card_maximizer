@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'card_maximizer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for card_maximizer
+
+  target 'card_maximizerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'card_maximizerUITests' do
+    # Pods for testing
+  end
+
+end
