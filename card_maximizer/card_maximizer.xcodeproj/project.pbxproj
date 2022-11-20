@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		38D889FCCAC97A4202DC2141 /* Pods_card_maximizer_card_maximizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */; };
 		50A51156557B65EE80977A53 /* Pods_card_maximizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242A5E36CF6482124E00EAE4 /* Pods_card_maximizerTests.framework */; };
+		B54DD77D2929B8290073A7B1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54DD77C2929B8290073A7B1 /* Location.swift */; };
 		B5F0922D29158850000C0D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0922C29158850000C0D55 /* AppDelegate.swift */; };
 		B5F0922F29158850000C0D55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0922E29158850000C0D55 /* SceneDelegate.swift */; };
 		B5F0923129158850000C0D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0923029158850000C0D55 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		4BBE11406EBA15BE9CBA3F36 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_card_maximizer_card_maximizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A35D95C8151588F0FACCC9D /* Pods-card_maximizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer.debug.xcconfig"; sourceTree = "<group>"; };
+		B54DD77C2929B8290073A7B1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B5F0922929158850000C0D55 /* card_maximizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = card_maximizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F0922C29158850000C0D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F0922E29158850000C0D55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				F412E53BDAE58FF1D6BD4543 /* Pods-card_maximizerTests.debug.xcconfig */,
 				4177C59CEB53577135D53DEE /* Pods-card_maximizerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,7 @@
 				B5F0923529158856000C0D55 /* Assets.xcassets */,
 				B5F0923729158856000C0D55 /* LaunchScreen.storyboard */,
 				B5F0923A29158856000C0D55 /* Info.plist */,
+				B54DD77C2929B8290073A7B1 /* Location.swift */,
 			);
 			path = card_maximizer;
 			sourceTree = "<group>";
@@ -179,6 +181,7 @@
 				B5F0922529158850000C0D55 /* Sources */,
 				B5F0922629158850000C0D55 /* Frameworks */,
 				B5F0922729158850000C0D55 /* Resources */,
+				A76750B29C8C3D6ACA4FCBE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +219,7 @@
 				B5F0924529158856000C0D55 /* Sources */,
 				B5F0924629158856000C0D55 /* Frameworks */,
 				B5F0924729158856000C0D55 /* Resources */,
+				B3ED86BE673B82EAD6CC10E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,6 +324,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A76750B29C8C3D6ACA4FCBE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-card_maximizer/Pods-card_maximizer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-card_maximizer/Pods-card_maximizer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-card_maximizer/Pods-card_maximizer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3ED86BE673B82EAD6CC10E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D4C33F4E26FD44A36347BD06 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,6 +411,7 @@
 			files = (
 				B5F0923129158850000C0D55 /* ViewController.swift in Sources */,
 				B5F0922D29158850000C0D55 /* AppDelegate.swift in Sources */,
+				B54DD77D2929B8290073A7B1 /* Location.swift in Sources */,
 				B5F0922F29158850000C0D55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

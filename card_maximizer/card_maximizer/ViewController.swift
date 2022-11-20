@@ -6,11 +6,13 @@
 //
 
 import UIKit
-//import GooglePlaces
+import GooglePlaces
+import CoreLocation
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
     
+    //var locationManager: CLLocationManager?
     //var placesClient: GMSPlacesClient!
     
     //var placesClient = GMSPlacesClient.shared()
@@ -71,10 +73,19 @@ class ViewController: UIViewController {
         print("I arrived in viewDidLoad prior")
 
         super.viewDidLoad()
+        LocationManager.shared.requestLocationAuthorization()
+        
+        /*locationManager = CLLocationManager() //Here it's saying locationManager is a new location manager, hence it's initialiazing the variable
+        locationManager?.delegate = self //we make locationManager a delegate of the class we are in (that's why we have self)
+        locationManager?.requestAlwaysAuthorization()
+        
+        view.backgroundColor = .gray
+        */
         print("I arrived in viewDidLoad")
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
+
 

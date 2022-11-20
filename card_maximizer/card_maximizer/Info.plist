@@ -2,8 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>I am asking for location</string>
+
+    <!-- This is needed to ask to allow location tracking even if the app is not in use -->
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Allows the app to send you notification for the best credit card to use at the store</string>
+    
+    <!-- These 2 are needed to ask permission for location once, always or not given -->
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Using your location to give you the nearest store2</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Using your location to give you the nearest store3</string>
+
+
+
+    
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UISceneConfigurations</key>

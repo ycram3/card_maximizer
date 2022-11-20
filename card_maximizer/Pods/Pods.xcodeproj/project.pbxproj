@@ -6,20 +6,46 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GooglePlaces;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		374265F6EC6E000BEE82A1F5ACBA578C /* Pods-card_maximizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C49B7C819DEB380457A04FA51776BD /* Pods-card_maximizer-dummy.m */; };
-		544872C232CC8086FBA202E6935C2EAB /* Pods-card_maximizer-card_maximizerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7046FD08AFDC347B0FD286B431A073C2 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA335BBEA50AD38DC654B6AA3DD3718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4B93EA46E6DF8B99DD1D9E0233176F74 /* Pods-card_maximizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2162285551C421B0B2090DA52B65C7 /* Pods-card_maximizer-dummy.m */; };
+		4D09F69A93C2B1DE9DA8482154B0B88F /* Pods-card_maximizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA60F08CE7A517E7B422CEB8708E086B /* Pods-card_maximizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5524B6A7F82E45A288B46B768BCBCDF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5BA413CA54B799990461B143C4E19B76 /* Pods-card_maximizerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464A9496BF55D05E35FD7E5DECFA71B /* Pods-card_maximizerTests-dummy.m */; };
-		75524DA73529FD266A60561BED00E36A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CB19AE062939B29EA4B9A9B573D651C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CE658FAEE22936FBC690003ADD35B6D9 /* Pods-card_maximizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB813B0A59F5375CE62F86213C9497 /* Pods-card_maximizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1FFF55012D6E6C3FB0A1E4BB9E585A4 /* Pods-card_maximizer-card_maximizerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E90F6085613380702DFC3E305D0976 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */; };
-		F884863B24DB52BA7D5BFB7460316351 /* Pods-card_maximizerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29996A9ED5043A82B33BFB0D5EA1F02 /* Pods-card_maximizerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA413CA54B799990461B143C4E19B76 /* Pods-card_maximizerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5399966FCFA4CC01F71B090F5C02BC /* Pods-card_maximizerTests-dummy.m */; };
+		9B92A6F037481BB5951994153D5F246F /* Pods-card_maximizer-card_maximizerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A28983C9A99483BFE37D4A8DF307B571 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D954CD8CF16377292F0DD736BE77254F /* Pods-card_maximizer-card_maximizerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003878D77C3DD4D03F01DE1C459231E4 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */; };
+		E48C1D1B82EA2A3A5D6D3D2093DFB41A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F884863B24DB52BA7D5BFB7460316351 /* Pods-card_maximizerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAFE78506B7FC8315C176133AFC07B5 /* Pods-card_maximizerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA88A1E6C79EC0053C6D464DA70D91A4 /* PBXContainerItemProxy */ = {
+		E0DD336CD446946FAF9B1BF20FFAD308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		E15A8A1980CAA2E17A044B6BE8D76ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		F0E51A37A430D077CCD8AE5C54926B39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,51 +55,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003878D77C3DD4D03F01DE1C459231E4 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizer-card_maximizerUITests-dummy.m"; sourceTree = "<group>"; };
+		0CAFE78506B7FC8315C176133AFC07B5 /* Pods-card_maximizerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizerTests-umbrella.h"; sourceTree = "<group>"; };
+		11CDDB55CB31BB84315E3DFA2F852765 /* Pods-card_maximizer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-Info.plist"; sourceTree = "<group>"; };
+		16693D814C70D2CF808F26647CF0EAAD /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A6346A6509CA95373061FD98C385901 /* Pods-card_maximizerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-card_maximizerTests"; path = Pods_card_maximizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5399966FCFA4CC01F71B090F5C02BC /* Pods-card_maximizerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizerTests-dummy.m"; sourceTree = "<group>"; };
+		1BE37D58F6200957E2FD0F3CBC928467 /* Pods-card_maximizer-card_maximizerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-card_maximizerUITests-Info.plist"; sourceTree = "<group>"; };
 		1F6FBFAFC17F11359E78053A2405E900 /* Pods-card_maximizer-card_maximizerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-card_maximizer-card_maximizerUITests"; path = Pods_card_maximizer_card_maximizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20660921F48CFBAD4D300A2C90D887DD /* Pods-card_maximizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3CB233ADAC1DC814204FC8FC88BF0880 /* Pods-card_maximizerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizerTests.modulemap"; sourceTree = "<group>"; };
-		4266A8DC986DC635317C9B5C44B8C472 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		51C49B7C819DEB380457A04FA51776BD /* Pods-card_maximizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizer-dummy.m"; sourceTree = "<group>"; };
-		6358D2AFEF7BE652E1B98F111F64F338 /* Pods-card_maximizerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6ABE323C126A20DDEF48D7966F1EB12D /* Pods-card_maximizer-card_maximizerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-card_maximizerUITests-Info.plist"; sourceTree = "<group>"; };
-		7046FD08AFDC347B0FD286B431A073C2 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizer-card_maximizerUITests-umbrella.h"; sourceTree = "<group>"; };
+		4BDB626C23C5218488C2FA3F4B0D1F39 /* Pods-card_maximizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer.debug.xcconfig"; sourceTree = "<group>"; };
+		502B04B23F7096C50B284717FD85EC66 /* Pods-card_maximizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57EE6D83399CD6C3545B544E6B08892C /* Pods-card_maximizer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6282CD96902A13B2AE5C54E6E3DAE698 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		654B5595BD5973B52C04C3419A33BE05 /* Pods-card_maximizerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		742EE253687E977EA575D9371CE0D3E3 /* Pods-card_maximizer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E8712A8C0FECD3DE5C5CE2313CCCED5 /* Pods-card_maximizerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizerTests-Info.plist"; sourceTree = "<group>"; };
-		8093D0E194DF90879059B40DCC6244B0 /* Pods-card_maximizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer.release.xcconfig"; sourceTree = "<group>"; };
-		8464A9496BF55D05E35FD7E5DECFA71B /* Pods-card_maximizerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizerTests-dummy.m"; sourceTree = "<group>"; };
-		90A27800B4666F4EF0DFC068D5640D26 /* Pods-card_maximizerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		98D5C427C04B663C9099D0F713C4959B /* Pods-card_maximizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizer.modulemap"; sourceTree = "<group>"; };
+		77DAAD6BA8BC0523E7B8FC0C8DD221EF /* Pods-card_maximizer-card_maximizerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizer-card_maximizerUITests.modulemap"; sourceTree = "<group>"; };
+		7BF8AC7F4486F7FE4ECA34C046D2C09D /* Pods-card_maximizerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizerTests-Info.plist"; sourceTree = "<group>"; };
+		8BF5E61CC5673A723D3F29593C247080 /* Pods-card_maximizer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-acknowledgements.plist"; sourceTree = "<group>"; };
+		90920CF1DB790EB795F526CE6E342B9D /* Pods-card_maximizerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizerTests.modulemap"; sourceTree = "<group>"; };
+		9992358344CE55723CBE3CDABA0C0F5F /* Pods-card_maximizerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9ADF7EC650218FA5D8136053A89BFCFF /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8E90F6085613380702DFC3E305D0976 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizer-card_maximizerUITests-dummy.m"; sourceTree = "<group>"; };
-		A900B49FFCE414BEDB1CC86900BA3725 /* Pods-card_maximizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizerTests.release.xcconfig"; sourceTree = "<group>"; };
-		AFE1767272675CB461DB1B662D6F4B29 /* Pods-card_maximizer-card_maximizerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizer-card_maximizerUITests.modulemap"; sourceTree = "<group>"; };
-		B04DBE00F0DF1BF190BA072460513AA4 /* Pods-card_maximizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer.debug.xcconfig"; sourceTree = "<group>"; };
-		BDCF0655A92758AE4DF71C3CACBC83A3 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C29996A9ED5043A82B33BFB0D5EA1F02 /* Pods-card_maximizerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizerTests-umbrella.h"; sourceTree = "<group>"; };
-		CD09BC3103BC51C877590ECFBF0BBD41 /* Pods-card_maximizer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-card_maximizer-Info.plist"; sourceTree = "<group>"; };
+		A28983C9A99483BFE37D4A8DF307B571 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizer-card_maximizerUITests-umbrella.h"; sourceTree = "<group>"; };
+		AA5F71CE3D2C61BFB499EE0EBBE3E8C5 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		BBED65E3F264BC23D8F1B1E25BFCD058 /* Pods-card_maximizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-card_maximizer.modulemap"; sourceTree = "<group>"; };
+		BE2162285551C421B0B2090DA52B65C7 /* Pods-card_maximizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-card_maximizer-dummy.m"; sourceTree = "<group>"; };
+		CE113E54BA5333A215B0CB7A671E159A /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer-card_maximizerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D1C9FF04846EEC4848BED423A5F934BD /* Pods-card_maximizer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-card_maximizer"; path = Pods_card_maximizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5645B454DAB114EFA65604815918922 /* Pods-card_maximizer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D820E8F2F4198A306EDED84FC0BCA192 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer-card_maximizerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DCE987030F29873ECC888208CB052E83 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FFFB813B0A59F5375CE62F86213C9497 /* Pods-card_maximizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizer-umbrella.h"; sourceTree = "<group>"; };
+		DA7DBA1471968A670B7B63C087685F67 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		DE3FB7E8B279FB571D56EC14CC881878 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E04E09572BCB213BFB7DEDD4E08591 /* Pods-card_maximizer-card_maximizerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-card_maximizer-card_maximizerUITests-resources.sh"; sourceTree = "<group>"; };
+		E93A353B23D80AE4093F19697F43DF8B /* Pods-card_maximizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizer.release.xcconfig"; sourceTree = "<group>"; };
+		EA60F08CE7A517E7B422CEB8708E086B /* Pods-card_maximizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-card_maximizer-umbrella.h"; sourceTree = "<group>"; };
+		EA7141AB1B0B302CB330802CB47F581F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		F4C189D0325732D234F1247411FDF957 /* Pods-card_maximizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-card_maximizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F943B69B0B1E0E74C3205A2F63F97BCD /* Pods-card_maximizer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-card_maximizer-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C07D7BFE1FFCDFFF2DBCD620D9EA311 /* Frameworks */ = {
+		4F3CD779BC3512D06C2FBFB14ADCFED6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB19AE062939B29EA4B9A9B573D651C9 /* Foundation.framework in Frameworks */,
+				E48C1D1B82EA2A3A5D6D3D2093DFB41A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78AB6CD0D5F0F2155C00DB5A778A1FFA /* Frameworks */ = {
+		9852A242C21CEBAA2064E7B02817806E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75524DA73529FD266A60561BED00E36A /* Foundation.framework in Frameworks */,
+				4AA335BBEA50AD38DC654B6AA3DD3718 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,20 +120,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14E9C74E62A7953F66C680991F58F672 /* Pods-card_maximizer-card_maximizerUITests */ = {
+		2ACE71B86A4BED7E3CAE14C9BA7BE5CE /* Pods-card_maximizer */ = {
 			isa = PBXGroup;
 			children = (
-				AFE1767272675CB461DB1B662D6F4B29 /* Pods-card_maximizer-card_maximizerUITests.modulemap */,
-				DCE987030F29873ECC888208CB052E83 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown */,
-				BDCF0655A92758AE4DF71C3CACBC83A3 /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist */,
-				A8E90F6085613380702DFC3E305D0976 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */,
-				6ABE323C126A20DDEF48D7966F1EB12D /* Pods-card_maximizer-card_maximizerUITests-Info.plist */,
-				7046FD08AFDC347B0FD286B431A073C2 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */,
-				4266A8DC986DC635317C9B5C44B8C472 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */,
-				D820E8F2F4198A306EDED84FC0BCA192 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */,
+				BBED65E3F264BC23D8F1B1E25BFCD058 /* Pods-card_maximizer.modulemap */,
+				57EE6D83399CD6C3545B544E6B08892C /* Pods-card_maximizer-acknowledgements.markdown */,
+				8BF5E61CC5673A723D3F29593C247080 /* Pods-card_maximizer-acknowledgements.plist */,
+				BE2162285551C421B0B2090DA52B65C7 /* Pods-card_maximizer-dummy.m */,
+				11CDDB55CB31BB84315E3DFA2F852765 /* Pods-card_maximizer-Info.plist */,
+				F943B69B0B1E0E74C3205A2F63F97BCD /* Pods-card_maximizer-resources.sh */,
+				EA60F08CE7A517E7B422CEB8708E086B /* Pods-card_maximizer-umbrella.h */,
+				4BDB626C23C5218488C2FA3F4B0D1F39 /* Pods-card_maximizer.debug.xcconfig */,
+				E93A353B23D80AE4093F19697F43DF8B /* Pods-card_maximizer.release.xcconfig */,
 			);
-			name = "Pods-card_maximizer-card_maximizerUITests";
-			path = "Target Support Files/Pods-card_maximizer-card_maximizerUITests";
+			name = "Pods-card_maximizer";
+			path = "Target Support Files/Pods-card_maximizer";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -112,46 +145,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		80076023A5AF4A89856422DE39931EAD /* Pods-card_maximizer */ = {
+		5F0F826F4B5CA480935185EE200299CC /* Pods-card_maximizerTests */ = {
 			isa = PBXGroup;
 			children = (
-				98D5C427C04B663C9099D0F713C4959B /* Pods-card_maximizer.modulemap */,
-				D5645B454DAB114EFA65604815918922 /* Pods-card_maximizer-acknowledgements.markdown */,
-				742EE253687E977EA575D9371CE0D3E3 /* Pods-card_maximizer-acknowledgements.plist */,
-				51C49B7C819DEB380457A04FA51776BD /* Pods-card_maximizer-dummy.m */,
-				CD09BC3103BC51C877590ECFBF0BBD41 /* Pods-card_maximizer-Info.plist */,
-				FFFB813B0A59F5375CE62F86213C9497 /* Pods-card_maximizer-umbrella.h */,
-				B04DBE00F0DF1BF190BA072460513AA4 /* Pods-card_maximizer.debug.xcconfig */,
-				8093D0E194DF90879059B40DCC6244B0 /* Pods-card_maximizer.release.xcconfig */,
+				90920CF1DB790EB795F526CE6E342B9D /* Pods-card_maximizerTests.modulemap */,
+				9992358344CE55723CBE3CDABA0C0F5F /* Pods-card_maximizerTests-acknowledgements.markdown */,
+				654B5595BD5973B52C04C3419A33BE05 /* Pods-card_maximizerTests-acknowledgements.plist */,
+				1B5399966FCFA4CC01F71B090F5C02BC /* Pods-card_maximizerTests-dummy.m */,
+				7BF8AC7F4486F7FE4ECA34C046D2C09D /* Pods-card_maximizerTests-Info.plist */,
+				0CAFE78506B7FC8315C176133AFC07B5 /* Pods-card_maximizerTests-umbrella.h */,
+				502B04B23F7096C50B284717FD85EC66 /* Pods-card_maximizerTests.debug.xcconfig */,
+				F4C189D0325732D234F1247411FDF957 /* Pods-card_maximizerTests.release.xcconfig */,
 			);
-			name = "Pods-card_maximizer";
-			path = "Target Support Files/Pods-card_maximizer";
+			name = "Pods-card_maximizerTests";
+			path = "Target Support Files/Pods-card_maximizerTests";
 			sourceTree = "<group>";
 		};
-		854B112013CAFEF308BB20C29DA9AD0C /* Targets Support Files */ = {
+		6F51D22A592AAC5646BA178257493AD0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				80076023A5AF4A89856422DE39931EAD /* Pods-card_maximizer */,
-				14E9C74E62A7953F66C680991F58F672 /* Pods-card_maximizer-card_maximizerUITests */,
-				CF0297DBA4F560FC25D5CF3DD19012BC /* Pods-card_maximizerTests */,
+				2ACE71B86A4BED7E3CAE14C9BA7BE5CE /* Pods-card_maximizer */,
+				DC78E8779DFF459C90A0145EF8D6AF42 /* Pods-card_maximizer-card_maximizerUITests */,
+				5F0F826F4B5CA480935185EE200299CC /* Pods-card_maximizerTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CF0297DBA4F560FC25D5CF3DD19012BC /* Pods-card_maximizerTests */ = {
+		857D09760EFF43711EF51D50FDC01736 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3CB233ADAC1DC814204FC8FC88BF0880 /* Pods-card_maximizerTests.modulemap */,
-				6358D2AFEF7BE652E1B98F111F64F338 /* Pods-card_maximizerTests-acknowledgements.markdown */,
-				90A27800B4666F4EF0DFC068D5640D26 /* Pods-card_maximizerTests-acknowledgements.plist */,
-				8464A9496BF55D05E35FD7E5DECFA71B /* Pods-card_maximizerTests-dummy.m */,
-				7E8712A8C0FECD3DE5C5CE2313CCCED5 /* Pods-card_maximizerTests-Info.plist */,
-				C29996A9ED5043A82B33BFB0D5EA1F02 /* Pods-card_maximizerTests-umbrella.h */,
-				20660921F48CFBAD4D300A2C90D887DD /* Pods-card_maximizerTests.debug.xcconfig */,
-				A900B49FFCE414BEDB1CC86900BA3725 /* Pods-card_maximizerTests.release.xcconfig */,
+				6282CD96902A13B2AE5C54E6E3DAE698 /* GooglePlaces.debug.xcconfig */,
+				DA7DBA1471968A670B7B63C087685F67 /* GooglePlaces.release.xcconfig */,
 			);
-			name = "Pods-card_maximizerTests";
-			path = "Target Support Files/Pods-card_maximizerTests";
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		86495445BDEF960EE33346A57A5D3AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26E9E4627C6B12CDB5293A55674851F /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8F8453F21266F8283B862F965FD7E13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA5F71CE3D2C61BFB499EE0EBBE3E8C5 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -159,8 +202,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				86495445BDEF960EE33346A57A5D3AAD /* Pods */,
 				D6672404430A34B5C6051D8AD4E4BF02 /* Products */,
-				854B112013CAFEF308BB20C29DA9AD0C /* Targets Support Files */,
+				6F51D22A592AAC5646BA178257493AD0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,6 +226,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D78998B9511E8E6F03EDD52AADE14E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7141AB1B0B302CB330802CB47F581F /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC78E8779DFF459C90A0145EF8D6AF42 /* Pods-card_maximizer-card_maximizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77DAAD6BA8BC0523E7B8FC0C8DD221EF /* Pods-card_maximizer-card_maximizerUITests.modulemap */,
+				9ADF7EC650218FA5D8136053A89BFCFF /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.markdown */,
+				16693D814C70D2CF808F26647CF0EAAD /* Pods-card_maximizer-card_maximizerUITests-acknowledgements.plist */,
+				003878D77C3DD4D03F01DE1C459231E4 /* Pods-card_maximizer-card_maximizerUITests-dummy.m */,
+				1BE37D58F6200957E2FD0F3CBC928467 /* Pods-card_maximizer-card_maximizerUITests-Info.plist */,
+				E1E04E09572BCB213BFB7DEDD4E08591 /* Pods-card_maximizer-card_maximizerUITests-resources.sh */,
+				A28983C9A99483BFE37D4A8DF307B571 /* Pods-card_maximizer-card_maximizerUITests-umbrella.h */,
+				DE3FB7E8B279FB571D56EC14CC881878 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */,
+				CE113E54BA5333A215B0CB7A671E159A /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */,
+			);
+			name = "Pods-card_maximizer-card_maximizerUITests";
+			path = "Target Support Files/Pods-card_maximizer-card_maximizerUITests";
+			sourceTree = "<group>";
+		};
+		F26E9E4627C6B12CDB5293A55674851F /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				D78998B9511E8E6F03EDD52AADE14E2B /* Frameworks */,
+				C8F8453F21266F8283B862F965FD7E13 /* Resources */,
+				857D09760EFF43711EF51D50FDC01736 /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -193,19 +273,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42C64F298A20B9205891B447F4D88FC4 /* Headers */ = {
+		ACF58B876646C69B7D4454140FDDD935 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE658FAEE22936FBC690003ADD35B6D9 /* Pods-card_maximizer-umbrella.h in Headers */,
+				4D09F69A93C2B1DE9DA8482154B0B88F /* Pods-card_maximizer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DB58417499D4B33CEB3A8C558E97015 /* Headers */ = {
+		C551CF4EBDB91DF51234B7AA55F74C3D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544872C232CC8086FBA202E6935C2EAB /* Pods-card_maximizer-card_maximizerUITests-umbrella.h in Headers */,
+				9B92A6F037481BB5951994153D5F246F /* Pods-card_maximizer-card_maximizerUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +304,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				07DAE747A523FF274B2D76BA1FD879AB /* PBXTargetDependency */,
+				28DA184D57445C82DBAE9E27528F5525 /* PBXTargetDependency */,
 			);
 			name = "Pods-card_maximizerTests";
 			productName = Pods_card_maximizerTests;
@@ -233,16 +313,17 @@
 		};
 		80FE5D7DFEBCC48715C1B9BB0C6677F7 /* Pods-card_maximizer-card_maximizerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3015CEE042AAD94CEFD6AB6AA9240595 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer-card_maximizerUITests" */;
+			buildConfigurationList = E55194F87E23A3E6D5E8E33E5304E9FB /* Build configuration list for PBXNativeTarget "Pods-card_maximizer-card_maximizerUITests" */;
 			buildPhases = (
-				9DB58417499D4B33CEB3A8C558E97015 /* Headers */,
-				12A92BACB26CC2ECC11F2D5BAE388D61 /* Sources */,
-				4C07D7BFE1FFCDFFF2DBCD620D9EA311 /* Frameworks */,
-				EF83F97FC6361A4D7E65995CED12DAB6 /* Resources */,
+				C551CF4EBDB91DF51234B7AA55F74C3D /* Headers */,
+				583B62D52A698310071F90367ACC32B7 /* Sources */,
+				9852A242C21CEBAA2064E7B02817806E /* Frameworks */,
+				0EFF604354F63DA979FEED3978CAD525 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F2AD44281B9152C5D168C517448EE763 /* PBXTargetDependency */,
 			);
 			name = "Pods-card_maximizer-card_maximizerUITests";
 			productName = Pods_card_maximizer_card_maximizerUITests;
@@ -251,16 +332,17 @@
 		};
 		B7B78E017823BBF009486F5C39459BFE /* Pods-card_maximizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 517E9CA65B31667AC891A09AE652D400 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer" */;
+			buildConfigurationList = 4657DD16891F08F9BA323E265CB31E20 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer" */;
 			buildPhases = (
-				42C64F298A20B9205891B447F4D88FC4 /* Headers */,
-				36B09D9D5BD120A2D09EF939CBCCC73E /* Sources */,
-				78AB6CD0D5F0F2155C00DB5A778A1FFA /* Frameworks */,
-				B99BBD1FF86A87B718EB472682BDDAD6 /* Resources */,
+				ACF58B876646C69B7D4454140FDDD935 /* Headers */,
+				514EA91F1DF0994B875C6D746C769997 /* Sources */,
+				4F3CD779BC3512D06C2FBFB14ADCFED6 /* Frameworks */,
+				9CE4787AA77A6429EE0D953D42B7335A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0269FEA032195233703E09AB62CA5C8E /* PBXTargetDependency */,
 			);
 			name = "Pods-card_maximizer";
 			productName = Pods_card_maximizer;
@@ -289,6 +371,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
 				B7B78E017823BBF009486F5C39459BFE /* Pods-card_maximizer */,
 				80FE5D7DFEBCC48715C1B9BB0C6677F7 /* Pods-card_maximizer-card_maximizerUITests */,
 				44249511BBBA0E686BC48C233DB80712 /* Pods-card_maximizerTests */,
@@ -297,7 +380,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B99BBD1FF86A87B718EB472682BDDAD6 /* Resources */ = {
+		0EFF604354F63DA979FEED3978CAD525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE4787AA77A6429EE0D953D42B7335A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,29 +401,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF83F97FC6361A4D7E65995CED12DAB6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12A92BACB26CC2ECC11F2D5BAE388D61 /* Sources */ = {
+		514EA91F1DF0994B875C6D746C769997 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1FFF55012D6E6C3FB0A1E4BB9E585A4 /* Pods-card_maximizer-card_maximizerUITests-dummy.m in Sources */,
+				4B93EA46E6DF8B99DD1D9E0233176F74 /* Pods-card_maximizer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36B09D9D5BD120A2D09EF939CBCCC73E /* Sources */ = {
+		583B62D52A698310071F90367ACC32B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374265F6EC6E000BEE82A1F5ACBA578C /* Pods-card_maximizer-dummy.m in Sources */,
+				D954CD8CF16377292F0DD736BE77254F /* Pods-card_maximizer-card_maximizerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,15 +431,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07DAE747A523FF274B2D76BA1FD879AB /* PBXTargetDependency */ = {
+		0269FEA032195233703E09AB62CA5C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = E0DD336CD446946FAF9B1BF20FFAD308 /* PBXContainerItemProxy */;
+		};
+		28DA184D57445C82DBAE9E27528F5525 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-card_maximizer";
 			target = B7B78E017823BBF009486F5C39459BFE /* Pods-card_maximizer */;
-			targetProxy = DA88A1E6C79EC0053C6D464DA70D91A4 /* PBXContainerItemProxy */;
+			targetProxy = F0E51A37A430D077CCD8AE5C54926B39 /* PBXContainerItemProxy */;
+		};
+		F2AD44281B9152C5D168C517448EE763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = E15A8A1980CAA2E17A044B6BE8D76ECD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02B993BEB90CF5DBB3A2101CC95C8104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3FB7E8B279FB571D56EC14CC881878 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -423,6 +555,24 @@
 			};
 			name = Debug;
 		};
+		24069BB3B6E16DED8CC95987BEACAF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7DBA1471968A670B7B63C087685F67 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2DE0D8898245310716431F92FA4989FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -485,9 +635,9 @@
 			};
 			name = Release;
 		};
-		2F724C6B285216AB052501DB6F7B2377 /* Release */ = {
+		33B4BB3054F17120F4C34BE03B27EF8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8093D0E194DF90879059B40DCC6244B0 /* Pods-card_maximizer.release.xcconfig */;
+			baseConfigurationReference = 4BDB626C23C5218488C2FA3F4B0D1F39 /* Pods-card_maximizer.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -517,15 +667,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		423EBA0E7210FDC6448EA66A50372BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20660921F48CFBAD4D300A2C90D887DD /* Pods-card_maximizerTests.debug.xcconfig */;
+			baseConfigurationReference = 502B04B23F7096C50B284717FD85EC66 /* Pods-card_maximizerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -560,47 +709,9 @@
 			};
 			name = Debug;
 		};
-		C05DAB891A924B679EDF387EE8FB6BA3 /* Release */ = {
+		A0BAFA3BED99B265A1AA7E08AC31835F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A900B49FFCE414BEDB1CC86900BA3725 /* Pods-card_maximizerTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C6C7932F45CBC86D8B7A581E52CA0B81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D820E8F2F4198A306EDED84FC0BCA192 /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */;
+			baseConfigurationReference = CE113E54BA5333A215B0CB7A671E159A /* Pods-card_maximizer-card_maximizerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -636,9 +747,9 @@
 			};
 			name = Release;
 		};
-		D5BC54B6296640EBD1E087F35A15DF2A /* Debug */ = {
+		A4D336B2A148B08099CF114658197191 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B04DBE00F0DF1BF190BA072460513AA4 /* Pods-card_maximizer.debug.xcconfig */;
+			baseConfigurationReference = E93A353B23D80AE4093F19697F43DF8B /* Pods-card_maximizer.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -668,14 +779,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		F7A2CB4A2A27033040E25BFE8920CABB /* Debug */ = {
+		C05DAB891A924B679EDF387EE8FB6BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4266A8DC986DC635317C9B5C44B8C472 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */;
+			baseConfigurationReference = F4C189D0325732D234F1247411FDF957 /* Pods-card_maximizerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -687,7 +799,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -696,7 +808,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-card_maximizerTests/Pods-card_maximizerTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -705,19 +817,37 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6282CD96902A13B2AE5C54E6E3DAE698 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3015CEE042AAD94CEFD6AB6AA9240595 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer-card_maximizerUITests" */ = {
+		4657DD16891F08F9BA323E265CB31E20 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7A2CB4A2A27033040E25BFE8920CABB /* Debug */,
-				C6C7932F45CBC86D8B7A581E52CA0B81 /* Release */,
+				33B4BB3054F17120F4C34BE03B27EF8E /* Debug */,
+				A4D336B2A148B08099CF114658197191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,11 +861,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		517E9CA65B31667AC891A09AE652D400 /* Build configuration list for PBXNativeTarget "Pods-card_maximizer" */ = {
+		9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5BC54B6296640EBD1E087F35A15DF2A /* Debug */,
-				2F724C6B285216AB052501DB6F7B2377 /* Release */,
+				C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */,
+				24069BB3B6E16DED8CC95987BEACAF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55194F87E23A3E6D5E8E33E5304E9FB /* Build configuration list for PBXNativeTarget "Pods-card_maximizer-card_maximizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B993BEB90CF5DBB3A2101CC95C8104 /* Debug */,
+				A0BAFA3BED99B265A1AA7E08AC31835F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
