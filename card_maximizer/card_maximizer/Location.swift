@@ -2,11 +2,16 @@
 //  Location.swift
 //  card_maximizer
 //
-//  Created by JPL-ST-SPRING2022 on 11/19/22.
+//  Created by Marcello Rusciano on 11/19/22.
 //
 
+import UIKit
 import Foundation
 import CoreLocation
+import GooglePlaces
+
+
+
 
 class LocationManager: NSObject, CLLocationManagerDelegate {
 
@@ -41,5 +46,4 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         self.requestLocationAuthorizationCallback?(status)
     }
 }
-
 

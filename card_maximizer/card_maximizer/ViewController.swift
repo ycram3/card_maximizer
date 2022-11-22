@@ -12,12 +12,52 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-    //var locationManager: CLLocationManager?
-    //var placesClient: GMSPlacesClient!
+    private var placesClient: GMSPlacesClient!
     
-    //var placesClient = GMSPlacesClient.shared()
-
     lazy var responseFromGoogle: String = "bakery"
+    
+    lazy var storeCategory: String = getCategory()
+    
+    @IBOutlet weak var creditCardNumber: UILabel!
+
+    @IBOutlet weak var creditCard: UILabel!
+    
+    @IBOutlet private var storeName: UIButton!
+    
+    @IBOutlet weak var storeAddress: UILabel!
+    
+    @IBAction func confirmStore(_ sender: UIButton) {
+        showTheCardToBeUsed(storeCategory: storeCategory)
+        sender.backgroundColor = UIColor.green
+        storeName.setTitle("Pizzeria Marcello", for: .normal)
+        //print(nameOfStore)
+    }
+
+    @IBAction func getCurrentPlace(_ sender: UIButton) {
+        let placeFields: GMSPlaceField = [.name, .formattedAddress]
+        placesClient.findPlaceLikelihoodsFromCurrentLocation(withPlaceFields: placeFields) { [weak self] (placeLikelihoods, error) in
+          guard let strongSelf = self else {
+            return
+          }
+
+          guard error == nil else {
+            print("Current place error: \(error?.localizedDescription ?? "")")
+            return
+          }
+
+          guard let place = placeLikelihoods?.first?.place else {
+            strongSelf.storeName.setTitle("No current place", for: .normal)
+            strongSelf.storeAddress.text = ""
+            return
+          }
+
+            strongSelf.storeName.setTitle(place.name , for: .normal)
+            strongSelf.storeAddress.text = place.formattedAddress
+            print(place.formattedAddress)
+            print(place.name)
+        }
+    }
+    
     
     var dict = ["amusement_park":"entertainment",
                 "aquarium":"entertainment",
@@ -43,17 +83,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
         return category
     }
-    lazy var storeCategory: String = getCategory()
-
-    @IBOutlet weak var creditCardNumber: UILabel!
-
-    @IBOutlet weak var creditCard: UILabel!
-    
-    @IBAction func confirmStore(_ sender: UIButton) {
-        showTheCardToBeUsed(storeCategory: storeCategory)
-        sender.backgroundColor = UIColor.green
-    }
-    
     
     func showTheCardToBeUsed(storeCategory: String){
         switch storeCategory{
@@ -67,25 +96,18 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
 
-    
-    
     override func viewDidLoad() {
         print("I arrived in viewDidLoad prior")
 
         super.viewDidLoad()
         LocationManager.shared.requestLocationAuthorization()
-        
-        /*locationManager = CLLocationManager() //Here it's saying locationManager is a new location manager, hence it's initialiazing the variable
-        locationManager?.delegate = self //we make locationManager a delegate of the class we are in (that's why we have self)
-        locationManager?.requestAlwaysAuthorization()
-        
-        view.backgroundColor = .gray
-        */
+        placesClient = GMSPlacesClient.shared()
         print("I arrived in viewDidLoad")
         // Do any additional setup after loading the view.
     }
-    
+
 
 }
+
 
 

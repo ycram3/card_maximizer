@@ -134,11 +134,11 @@
 				B5F0922C29158850000C0D55 /* AppDelegate.swift */,
 				B5F0922E29158850000C0D55 /* SceneDelegate.swift */,
 				B5F0923029158850000C0D55 /* ViewController.swift */,
+				B54DD77C2929B8290073A7B1 /* Location.swift */,
 				B5F0923229158850000C0D55 /* Main.storyboard */,
 				B5F0923529158856000C0D55 /* Assets.xcassets */,
 				B5F0923729158856000C0D55 /* LaunchScreen.storyboard */,
 				B5F0923A29158856000C0D55 /* Info.plist */,
-				B54DD77C2929B8290073A7B1 /* Location.swift */,
 			);
 			path = card_maximizer;
 			sourceTree = "<group>";
