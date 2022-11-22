@@ -14,9 +14,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     private var placesClient: GMSPlacesClient!
     
-    lazy var responseFromGoogle: String = "bakery"
+    var responseFromGoogle: String = ""
     
     lazy var storeCategory: String = getCategory()
+    
+    @IBOutlet weak var type: UIButton!
     
     @IBOutlet weak var creditCardNumber: UILabel!
 
@@ -24,17 +26,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet private var storeName: UIButton!
     
-    @IBOutlet weak var storeAddress: UILabel!
+    @IBOutlet weak var storeAddress: UIButton!
     
     @IBAction func confirmStore(_ sender: UIButton) {
         showTheCardToBeUsed(storeCategory: storeCategory)
-        sender.backgroundColor = UIColor.green
-        storeName.setTitle("Pizzeria Marcello", for: .normal)
-        //print(nameOfStore)
-    }
 
-    @IBAction func getCurrentPlace(_ sender: UIButton) {
-        let placeFields: GMSPlaceField = [.name, .formattedAddress]
+        let placeFields: GMSPlaceField = [.name, .formattedAddress, .types]
         placesClient.findPlaceLikelihoodsFromCurrentLocation(withPlaceFields: placeFields) { [weak self] (placeLikelihoods, error) in
           guard let strongSelf = self else {
             return
@@ -47,15 +44,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
           guard let place = placeLikelihoods?.first?.place else {
             strongSelf.storeName.setTitle("No current place", for: .normal)
-            strongSelf.storeAddress.text = ""
+            strongSelf.storeAddress.setTitle("No Address Available", for: .normal)
+            strongSelf.type.setTitle("Unknown", for: .normal)
             return
           }
 
+            //strongSelf.storeName.setTitle(place.name , for: .normal)
+            //strongSelf.storeAddress.text = place.formattedAddress
+            print(place.formattedAddress ?? "No Address Available")
+            strongSelf.storeAddress.setTitle(place.formattedAddress, for: .normal)
+            print(place.types ?? "No current type available")
+            self?.responseFromGoogle = place.types?[0] ?? "Unknown"
+            strongSelf.type.setTitle(self?.getCategory(), for: .normal)
+            print(place.name ?? "No current place")
             strongSelf.storeName.setTitle(place.name , for: .normal)
-            strongSelf.storeAddress.text = place.formattedAddress
-            print(place.formattedAddress)
-            print(place.name)
         }
+        sender.backgroundColor = UIColor.green
     }
     
     
@@ -83,6 +87,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
         return category
     }
+    
+    
     
     func showTheCardToBeUsed(storeCategory: String){
         switch storeCategory{
