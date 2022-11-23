@@ -10,6 +10,7 @@
 		38D889FCCAC97A4202DC2141 /* Pods_card_maximizer_card_maximizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */; };
 		50A51156557B65EE80977A53 /* Pods_card_maximizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242A5E36CF6482124E00EAE4 /* Pods_card_maximizerTests.framework */; };
 		B54DD77D2929B8290073A7B1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54DD77C2929B8290073A7B1 /* Location.swift */; };
+		B55F90B2292DEDD800F6FE77 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55F90B1292DEDD800F6FE77 /* Model.swift */; };
 		B5F0922D29158850000C0D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0922C29158850000C0D55 /* AppDelegate.swift */; };
 		B5F0922F29158850000C0D55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0922E29158850000C0D55 /* SceneDelegate.swift */; };
 		B5F0923129158850000C0D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0923029158850000C0D55 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_card_maximizer_card_maximizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A35D95C8151588F0FACCC9D /* Pods-card_maximizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer.debug.xcconfig"; sourceTree = "<group>"; };
 		B54DD77C2929B8290073A7B1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B55F90B1292DEDD800F6FE77 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B5F0922929158850000C0D55 /* card_maximizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = card_maximizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F0922C29158850000C0D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F0922E29158850000C0D55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,9 +137,10 @@
 				B5F0922E29158850000C0D55 /* SceneDelegate.swift */,
 				B5F0923029158850000C0D55 /* ViewController.swift */,
 				B54DD77C2929B8290073A7B1 /* Location.swift */,
+				B55F90B1292DEDD800F6FE77 /* Model.swift */,
 				B5F0923229158850000C0D55 /* Main.storyboard */,
-				B5F0923529158856000C0D55 /* Assets.xcassets */,
 				B5F0923729158856000C0D55 /* LaunchScreen.storyboard */,
+				B5F0923529158856000C0D55 /* Assets.xcassets */,
 				B5F0923A29158856000C0D55 /* Info.plist */,
 			);
 			path = card_maximizer;
@@ -409,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55F90B2292DEDD800F6FE77 /* Model.swift in Sources */,
 				B5F0923129158850000C0D55 /* ViewController.swift in Sources */,
 				B5F0922D29158850000C0D55 /* AppDelegate.swift in Sources */,
 				B54DD77D2929B8290073A7B1 /* Location.swift in Sources */,

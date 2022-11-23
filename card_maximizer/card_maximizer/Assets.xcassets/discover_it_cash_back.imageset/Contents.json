@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "discover_it_cash_back_FINAL-0a146207fcc24568a9667949f94a9d93.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
