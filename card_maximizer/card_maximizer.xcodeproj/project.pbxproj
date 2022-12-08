@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		38D889FCCAC97A4202DC2141 /* Pods_card_maximizer_card_maximizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */; };
 		50A51156557B65EE80977A53 /* Pods_card_maximizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242A5E36CF6482124E00EAE4 /* Pods_card_maximizerTests.framework */; };
+		B546F07D2939A09700E73416 /* CardStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546F07C2939A09700E73416 /* CardStoreViewController.swift */; };
 		B54DD77D2929B8290073A7B1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54DD77C2929B8290073A7B1 /* Location.swift */; };
 		B55F90B2292DEDD800F6FE77 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55F90B1292DEDD800F6FE77 /* Model.swift */; };
 		B5F0922D29158850000C0D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0922C29158850000C0D55 /* AppDelegate.swift */; };
@@ -48,6 +49,7 @@
 		4BBE11406EBA15BE9CBA3F36 /* Pods-card_maximizer-card_maximizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizer-card_maximizerUITests/Pods-card_maximizer-card_maximizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		566E6FFEFCE0A6DC582B62FF /* Pods_card_maximizer_card_maximizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_card_maximizer_card_maximizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A35D95C8151588F0FACCC9D /* Pods-card_maximizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_maximizer.debug.xcconfig"; path = "Target Support Files/Pods-card_maximizer/Pods-card_maximizer.debug.xcconfig"; sourceTree = "<group>"; };
+		B546F07C2939A09700E73416 /* CardStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStoreViewController.swift; sourceTree = "<group>"; };
 		B54DD77C2929B8290073A7B1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B55F90B1292DEDD800F6FE77 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B5F0922929158850000C0D55 /* card_maximizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = card_maximizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 				B5F0922C29158850000C0D55 /* AppDelegate.swift */,
 				B5F0922E29158850000C0D55 /* SceneDelegate.swift */,
 				B5F0923029158850000C0D55 /* ViewController.swift */,
+				B546F07C2939A09700E73416 /* CardStoreViewController.swift */,
 				B54DD77C2929B8290073A7B1 /* Location.swift */,
 				B55F90B1292DEDD800F6FE77 /* Model.swift */,
 				B5F0923229158850000C0D55 /* Main.storyboard */,
@@ -412,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B546F07D2939A09700E73416 /* CardStoreViewController.swift in Sources */,
 				B55F90B2292DEDD800F6FE77 /* Model.swift in Sources */,
 				B5F0923129158850000C0D55 /* ViewController.swift in Sources */,
 				B5F0922D29158850000C0D55 /* AppDelegate.swift in Sources */,
@@ -596,12 +600,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = card_maximizer/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allows the app to send you notification for the best credit card to use at the store";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Using your location to give you the nearest store2";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Using your location to give you the nearest store3";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -625,12 +633,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = card_maximizer/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allows the app to send you notification for the best credit card to use at the store";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Using your location to give you the nearest store2";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Using your location to give you the nearest store3";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

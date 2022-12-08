@@ -2,7 +2,7 @@
 //  Model.swift
 //  card_maximizer
 //
-//  Created by JPL-ST-SPRING2022 on 11/22/22.
+//  Created by Marcello Rusciano on 11/22/22.
 //
 
 import Foundation

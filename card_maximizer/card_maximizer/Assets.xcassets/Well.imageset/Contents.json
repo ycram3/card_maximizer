@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Well.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,13 +10,8 @@
       "scale" : "2x"
     },
     {
-      "filename" : "a.png",
       "idiom" : "universal",
       "scale" : "3x"
-    },
-    {
-      "idiom" : "watch",
-      "scale" : "2x"
     }
   ],
   "info" : {

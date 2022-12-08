@@ -10,9 +10,6 @@ import Foundation
 import CoreLocation
 import GooglePlaces
 
-
-
-
 class LocationManager: NSObject, CLLocationManagerDelegate {
 
     static let shared = LocationManager()//passing its own class to the variable
@@ -33,6 +30,10 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
             self.requestLocationAuthorizationCallback = { status in
                 if status == .authorizedWhenInUse {
                     self.locationManager.requestAlwaysAuthorization()
+                }
+                if status == .denied{
+                    self.requestLocationAuthorization()
+                    print("Not authorized")
                 }
             }
             self.locationManager.requestWhenInUseAuthorization()

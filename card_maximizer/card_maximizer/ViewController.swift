@@ -10,7 +10,7 @@ import GooglePlaces
 import CoreLocation
 
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, bob {
     
     private var placesClient: GMSPlacesClient!
     var variableCard : String = ""
@@ -23,7 +23,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet private var storeName: UIButton!
     @IBOutlet weak var storeAddress: UIButton!
     @IBOutlet weak var youShouldUse: UILabel!
-    
     @IBOutlet weak var applePay: UIButton!
     
     @IBAction func applePay(_ sender: UIButton) {
@@ -76,18 +75,23 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func showTheCardToBeUsed(storeCategory: String){
         switch storeCategory{
         case "dining": creditCard.text = "Discover it Cash Back"; creditCardNumber.text = "Ending with ...9424"; variableCard = "discover_it_cash_back"
-        case "entertainment": creditCard.text = "Chase"
-        case "travel": creditCard.text = "Amex"
-        case "gas": creditCard.text = "Bank of America"
-        case "grocery": creditCard.text = "Capitol One"
-        default: creditCard.text = "Wells Fargo"; creditCardNumber.text = "Ending with ...9424"; variableCard = "discover_it_cash_back"
+        case "entertainment": creditCard.text = "Chase"; creditCardNumber.text = "Ending with ...9424"; variableCard = "Chase"
+        case "travel": creditCard.text = "Amex"; creditCardNumber.text = "Ending with ...9424"; variableCard = "ame"
+        case "gas": creditCard.text = "Bank of America"; creditCardNumber.text = "Ending with ...9424"; variableCard = "Bofa"
+        case "grocery": creditCard.text = "Capitol One"; creditCardNumber.text = "Ending with ...9424"; variableCard = "Capitol"
+        default: creditCard.text = "Wells Fargo"; creditCardNumber.text = "Ending with ...9424"; variableCard = "Well"
         }
         imageView.image = UIImage(named: variableCard)
         youShouldUse.text = "You should use:"
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if let cardStoreViewController = segue.destination as? CardStoreViewController{
+            cardStoreViewController.delegate = self
+        }
+    }
+    
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         LocationManager.shared.requestLocationAuthorization()
         placesClient = GMSPlacesClient.shared()
